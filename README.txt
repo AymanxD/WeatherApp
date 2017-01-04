@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/AymanxD/pen/RGxBjb.
+Functional website: https://codepen.io/AymanxD/pen/RGxBjb.
 
- 
+Created for Free Code Camp
