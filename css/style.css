@@ -1,0 +1,48 @@
+.header { 
+font-family: Lobster Two;
+font-size: 60px;
+color: White;
+}
+
+.bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5000;
+}
+
+.center-box{
+  background-color:rgba(0, 0, 0, 0.2);
+  margin:2, 20, 20, 20;
+  width: 40%;
+  margin-top:30px;
+  max-width: 100%;
+
+}
+
+.information{
+  font-family: arial;
+  font-size: 30px;
+  margin-top: 10px;
+  color:black;
+
+}
+
+.Temperature{
+  margin-top: 30px; 
+
+
+}
+.tempbutton {
+  margin-top: 30px;
+  font-size: 30px;
+  background-color: Transparent;
+  color:black;
+}
+
+.tempbutton:focus {
+  outline:none !important;
+  box-shadow: none;
+
+}
