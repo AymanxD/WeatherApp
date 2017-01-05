@@ -1,4 +1,6 @@
 $(document).ready(function() {
+   
+    // Finding user location
    if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(function(position) {
     var weathersite = "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?"; 
@@ -6,6 +8,8 @@ $(document).ready(function() {
     var lon = "lon=" + position.coords.longitude;
     var appid = "897d26571ae0ef6879e42b5b8f06a941";
     var url = weathersite + lat + "&" + lon + "&appid="+ appid;
+     
+     // Background images which change depending on the local weather
     var backgroundimages = {
       "Thunderstorm":
        "http://cdn.wallpapersafari.com/84/18/GB4ZUt.jpg"
@@ -28,6 +32,7 @@ $(document).ready(function() {
       "http://desktopwalls.net/wp-content/uploads/2014/07/New%20York%20Black%20And%20White%20Cloudy%20Day%20Skyline%20Desktop%20Wallpaper.jpg"
     };
     
+     // Getting the temperature in the user's local area
    $.getJSON(url, function(temp){
      $(".bg").attr("src", backgroundimages[temp.weather[0].main]);
       var city = temp.name;
@@ -44,6 +49,7 @@ $(document).ready(function() {
      var location = $(".location").html(city + ", " + country); 
      var description = $(".description").html(Description);
      
+      // Toggles between Celcius and Fahrenheit
      var unit = "°C";
      var temperature = $(".tempbutton").html(temperaturecelcius+ unit);
    
