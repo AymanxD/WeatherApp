@@ -1,4 +1,4 @@
-.header { 
+.header {
 font-family: Lobster Two;
 font-size: 60px;
 color: White;
@@ -15,10 +15,9 @@ color: White;
 .center-box{
   background-color:rgba(0, 0, 0, 0.2);
   margin:2, 20, 20, 20;
-  width: 40%;
+  width: 400px;
   margin-top:30px;
   max-width: 100%;
-
 }
 
 .information{
@@ -26,12 +25,10 @@ color: White;
   font-size: 30px;
   margin-top: 10px;
   color:black;
-
 }
 
 .Temperature{
-  margin-top: 30px; 
-
+  margin-top: 30px;
 
 }
 .tempbutton {
@@ -46,3 +43,12 @@ color: White;
   box-shadow: none;
 
 }
+
+  @media (max-width:600px) {
+    .header {
+      font-size: 40px;
+    }
+    .information {
+      font-size: 20px;
+    }
+  }
