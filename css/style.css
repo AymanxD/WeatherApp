@@ -24,7 +24,7 @@ color: White;
   font-family: arial;
   font-size: 30px;
   margin-top: 10px;
-  color:black;
+  color:#FFFFFF;
 }
 
 .Temperature{
@@ -35,7 +35,7 @@ color: White;
   margin-top: 30px;
   font-size: 30px;
   background-color: Transparent;
-  color:black;
+  color:#000000;
 }
 
 .tempbutton:focus {
@@ -44,11 +44,18 @@ color: White;
 
 }
 
+.tempbutton:hover {
+  color:#000000;
+}
   @media (max-width:600px) {
     .header {
       font-size: 40px;
     }
     .information {
       font-size: 20px;
+    }
+    .bg {
+      height: 150%;
+      width: 200%;
     }
   }

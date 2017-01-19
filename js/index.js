@@ -11,23 +11,27 @@ $(document).ready(function() {
 
      // Background images which change depending on the local weather
     var backgroundimages = {
+
+      "Mist":
+      "http://eskipaper.com/images/mist-28.jpg"
+        ,
       "Thunderstorm":
        "http://cdn.wallpapersafari.com/84/18/GB4ZUt.jpg"
         ,
       "Drizzle":
       "http://img.wallpaperfolder.com/f/63F6185B034B/rain-heavy-haarp-clouds.jpg"
-      ,
+        ,
       "Rain":
       "http://img.wallpaperfolder.com/f/63F6185B034B/rain-heavy-haarp-clouds.jpg"
         ,
       "Snow":
       "https://cdn.pixabay.com/photo/2013/10/27/17/14/frozen-201495_960_720.jpg"
-      ,
+        ,
       "Atmosphere": "http://www.mrwallpaper.com/wallpapers/sunny-day-lake-bridge.jpg"
-      ,
+        ,
       "Clear":
       "http://www.mrwallpaper.com/wallpapers/sunny-day-lake-bridge.jpg"
-       ,
+        ,
       "Clouds":
       "http://desktopwalls.net/wp-content/uploads/2014/07/New%20York%20Black%20And%20White%20Cloudy%20Day%20Skyline%20Desktop%20Wallpaper.jpg"
     };
