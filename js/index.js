@@ -12,6 +12,9 @@ $(document).ready(function() {
      // Background images which change depending on the local weather
     var backgroundimages = {
 
+      "Fog" :
+      "https://www.howitworksdaily.com/wp-content/uploads/2014/08/fog-06.jpg"
+        ,
       "Mist":
       "http://eskipaper.com/images/mist-28.jpg"
         ,
