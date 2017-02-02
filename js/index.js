@@ -28,7 +28,7 @@ $(document).ready(function() {
       "http://img.wallpaperfolder.com/f/63F6185B034B/rain-heavy-haarp-clouds.jpg"
         ,
       "Snow":
-      "https://cdn.pixabay.com/photo/2013/10/27/17/14/frozen-201495_960_720.jpg"
+      "https://static.pexels.com/photos/38928/pexels-photo-38928.jpeg"
         ,
       "Atmosphere": "http://www.mrwallpaper.com/wallpapers/sunny-day-lake-bridge.jpg"
         ,
