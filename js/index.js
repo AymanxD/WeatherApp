@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
     // Finding user location
    if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(function(position) {

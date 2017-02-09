@@ -38,6 +38,7 @@ color: White;
   background-color: Transparent;
   color:white;
   border: 1px solid white;
+  box-shadow: none;
 }
 
 .tempbutton:focus {
